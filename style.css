@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.overlay {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.container1 {
+  color: white;
+  background-color: #7494ec;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 40px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.container2 {
+  color: black;
+  background-color: white;
+  padding: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.container2-log {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inp1,
+.inp2,
+.inp3 {
+  margin-bottom: 10px;
+}
+.inp1, .inp2, .inp3 {
+    position: relative; 
+    margin-bottom: 20px;
+    width: 100%;     
+}
+.inp1 input, .inp2 input, .inp3 input {
+    width: 100%;     
+    padding: 10px;    
+    padding-right: 35px;
+    box-sizing: border-box;
+}
+.inp1 i, .inp2 i, .inp3 i {
+    position: absolute;
+    right: 10px;      
+    top: 50%;        
+    transform: translateY(-50%); 
+    pointer-events: none;
+}
+.container2-btnlogin{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #7494EC;
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 500px) {
+    .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+}

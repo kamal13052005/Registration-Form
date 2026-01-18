@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="overlay"></div>
+    <section class="main">
+        <div class="container1">
+            <h1>Hello, Welcome!</h1>
+            <p style="font-weight: bold;">Don't have an account ?</p>
+            <p style="font-weight: bold;">Register Here...</p>
+        </div>
+        <div class="container2">
+            <h1 class="container2-log">Login</h1>
+            <div class="inp1" style="position: relative; margin-bottom: 25px;">
+                <input type="text" name="" id="inp1-1" placeholder="Username">
+                <i class="fa-solid fa-circle-user w-6 h-6"></i>
+                <small id="username-hint"
+                    style="color: red; display: none; position: absolute; left: 0; bottom: -18px;">
+                    Minimum 6 characters needed
+                </small>
+            </div>
+            <div class="inp2" style="position: relative; margin-bottom: 25px;">
+                <input type="text" name="" id="inp2-2" placeholder="abc@gmail.com">
+                <i class="fa-solid fa-at"></i>
+                <small id="email-hint" style="color: red; display: none; position: absolute; left: 0; bottom: -18px;">
+                    Enter valid email (e.g., abc@gmail.com)
+                </small>
+            </div>
+            <div class="inp3">
+                <input type="text" name="" id="inp3-3" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+                <small id="password-hint"
+                    style="color: red; display: none; position: absolute; left: 0; bottom: -18px;">
+                    Minimum 8 characters needed
+                </small>
+            </div>
+            <p style="text-align: center;">Forgot Password</p>
+            <button class="container2-btnlogin">Register</button>
+        </div>
+    </section>
+    <script src="registration.js"></script>
+</body>
+
+</html>
